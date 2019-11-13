@@ -20,7 +20,7 @@ html, body {
   margin: 60px auto 0 auto;    /* top | right | bottom | left */
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  max-width: 40%;
+  max-width: 43%;
   min-width: 300px;
   box-shadow: 10px 10px 31px -18px rgba(158,158,158,0.47);
 }
@@ -38,13 +38,13 @@ html, body {
 }
 
 .h-2-text {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 1rem 1.8rem 1rem 1.8rem;
   color: #a0c334;
 }
 
 .h-p-text {
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.7;
   padding: 0 2.5rem 2rem 1.8rem;
   color: #aaaaaa;
@@ -55,7 +55,7 @@ html, body {
 .signup-container {
   display: flex;
   background: #fff;
-  max-width: 40%;
+  max-width: 43%;
   margin: auto;
   text-align: left;
   justify-content: center;
@@ -157,7 +157,7 @@ html, body {
 
   /* mobile */
 
-  @media(max-width: 500px){
+  @media(max-width: 800px){
     .signup-container {
       flex-direction: column;
       min-width: 300px;
