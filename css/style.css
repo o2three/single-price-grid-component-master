@@ -19,7 +19,7 @@ html, body {
   background: #fff;
   margin: 60px auto 0 auto;    /* top | right | bottom | left */
   border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-right-radius: 5px; 
   max-width: 43%;
   min-width: 300px;
   box-shadow: 10px 10px 31px -18px rgba(158,158,158,0.47);
@@ -59,6 +59,8 @@ html, body {
   margin: auto;
   text-align: left;
   justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; 
 }
 
 .signup-content {
